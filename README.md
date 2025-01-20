@@ -1,4 +1,4 @@
-# Colours
+# Eyes
 A Library in GoLang to add information to your logs based on colours &amp; output colours.
 
 ## Features
@@ -12,7 +12,7 @@ A Library in GoLang to add information to your logs based on colours &amp; outpu
 ```go
 import (
     "fmt"
-    "github.com/r2unit/colours"
+    "github.com/r2unit/eyes"
 )
 ```
 
@@ -23,7 +23,7 @@ package main
 
 import (
     "fmt"
-    "github.com/r2unit/colours"
+    "github.com/r2unit/eyes"
 )
 
 func main() {
