@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/r2unit/colours/messages" // Import the messages package
+	"github.com/r2unit/colours/messages"
 )
 
 func main() {
