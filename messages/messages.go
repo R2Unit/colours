@@ -6,10 +6,12 @@ import (
 	"github.com/r2unit/colours/colours"
 )
 
+// Colourize wraps a message with the given color code.
 func Colourize(color string, message string) string {
 	return fmt.Sprintf("%s%s%s", color, message, colours.Reset)
 }
 
+// Predefined color functions with bold log level prefixes.
 var (
 	Success = func(message string) string {
 		return fmt.Sprintf("%s[Success]%s %s", Colourize(colours.Bold+colours.Green, "Success"), colours.Reset, message)
