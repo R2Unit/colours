@@ -9,8 +9,6 @@ A Library in GoLang to add information to your logs based on colours &amp; outpu
 
 ### Usage
 
-Simply import the root package to access both colors and messages:
-
 ```go
 import (
     "fmt"
@@ -18,7 +16,7 @@ import (
 )
 ```
 
-## Example: Using Colours & Messages
+## Example
 
 ```go
 package main
