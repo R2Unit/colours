@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/r2unit/colours/colours"
+	"github.com/r2unit/eyes/colours"
 )
 
 func TestColourize(t *testing.T) {
@@ -43,18 +43,22 @@ func TestPredefinedMessages(t *testing.T) {
 		t.Run(tc.name, func(t *testing.T) {
 			result := tc.function(tc.message)
 
+			// Check that the result contains the prefix
 			if !strings.Contains(result, tc.prefix) {
 				t.Errorf("Expected result to contain prefix %s, got %s", tc.prefix, result)
 			}
 
+			// Check that the result contains the message
 			if !strings.Contains(result, tc.message) {
 				t.Errorf("Expected result to contain message %s, got %s", tc.message, result)
 			}
 
-			if !strings.HasPrefix(result, colours.Bold) {
-				t.Errorf("Expected result to start with Bold, got %s", result)
+			// Check that the result starts with a valid timestamp
+			if !strings.HasPrefix(result, getTimestamp()[:10]) { // Only validate the date part
+				t.Errorf("Expected result to start with a valid timestamp, got %s", result)
 			}
 
+			// Check that the result ends with the Reset code
 			if !strings.HasSuffix(result, colours.Reset) {
 				t.Errorf("Expected result to end with Reset, got %s", result)
 			}
