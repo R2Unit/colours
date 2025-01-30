@@ -4,7 +4,7 @@ A Library in GoLang to add information to your logs based on colours &amp; outpu
 ## Features
 
 - **Customizable ANSI Colors**: Use predefined ANSI codes for colored output.
-- **Predefined Log Levels**: Styled log levels like `Success`, `Warning`, `Danger`, `Info`, `Debug`, and `Notice`.
+- **Predefined Log Levels**: Styled log levels like `Success`, `Warning`, `Error`, `Info`, `Debug`, and `Notice`.
 - **Modular Design**: Colors and messages are separated into distinct packages for reusability.
 
 ### Usage
