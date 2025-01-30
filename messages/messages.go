@@ -17,8 +17,8 @@ var (
 	Warning = func(message string) string {
 		return fmt.Sprintf("%s[Warning]%s %s%s", colours.Bold+colours.Yellow, colours.Reset, message, colours.Reset)
 	}
-	Danger = func(message string) string {
-		return fmt.Sprintf("%s[Danger]%s %s%s", colours.Bold+colours.Red, colours.Reset, message, colours.Reset)
+	Error = func(message string) string {
+		return fmt.Sprintf("%s[Error]%s %s%s", colours.Bold+colours.Red, colours.Reset, message, colours.Reset)
 	}
 	Info = func(message string) string {
 		return fmt.Sprintf("%s[Info]%s %s%s", colours.Bold+colours.Blue, colours.Reset, message, colours.Reset)

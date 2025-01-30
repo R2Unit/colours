@@ -20,7 +20,7 @@ var (
 	Colourize = messages.Colourize
 	Success   = messages.Success
 	Warning   = messages.Warning
-	Danger    = messages.Danger
+	Error     = messages.Error
 	Info      = messages.Info
 	Debug     = messages.Debug
 	Notice    = messages.Notice

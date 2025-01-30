@@ -33,7 +33,7 @@ func TestPredefinedMessages(t *testing.T) {
 	}{
 		{"Success", Success, "[Success]", "Operation successful"},
 		{"Warning", Warning, "[Warning]", "Potential issue"},
-		{"Danger", Danger, "[Danger]", "An error occurred"},
+		{"Error", Error, "[Error]", "An error occurred"},
 		{"Info", Info, "[Info]", "Informational message"},
 		{"Debug", Debug, "[Debug]", "Debugging details"},
 		{"Notice", Notice, "[Notice]", "Important notice"},
