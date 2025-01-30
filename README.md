@@ -33,7 +33,7 @@ func main() {
     // Using predefined messages
     fmt.Println(colours.Success("Operation was successful."))
     fmt.Println(colours.Warning("This is a warning message."))
-    fmt.Println(colours.Danger("Something went wrong!"))
+    fmt.Println(colours.Error("Something went wrong!"))
     fmt.Println(colours.Info("Here is some informational text."))
     fmt.Println(colours.Debug("This is a debug message."))
     fmt.Println(colours.Notice("This is a notice message."))
@@ -46,7 +46,7 @@ When you run the example, the output will look something like this (formatted wi
 This is a green message.
 [Success] Operation was successful.
 [Warning] This is a warning message.
-[Danger] Something went wrong!
+[Error] Something went wrong!
 [Info] Here is some informational text.
 [Debug] This is a debug message.
 [Notice] This is a notice message.
