@@ -1,8 +1,8 @@
 package colours
 
 import (
-	"github.com/r2unit/colours/colours"
-	"github.com/r2unit/colours/messages"
+	"github.com/r2unit/go-colours/colours"
+	"github.com/r2unit/go-colours/messages"
 )
 
 const (

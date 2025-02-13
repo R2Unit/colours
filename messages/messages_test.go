@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/r2unit/colours/colours"
+	"github.com/r2unit/go-colours/colours"
 )
 
 func TestColourize(t *testing.T) {

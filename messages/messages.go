@@ -3,7 +3,7 @@ package messages
 import (
 	"fmt"
 
-	"github.com/r2unit/colours/colours"
+	"github.com/r2unit/go-colours/colours"
 )
 
 func Colourize(color string, message string) string {
