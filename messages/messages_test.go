@@ -37,6 +37,7 @@ func TestPredefinedMessages(t *testing.T) {
 		{"Info", Info, "[Info]", "Informational message"},
 		{"Debug", Debug, "[Debug]", "Debugging details"},
 		{"Notice", Notice, "[Notice]", "Important notice"},
+		{"Ok", Ok, "[Ok]", "Ok Operation"},
 	}
 
 	for _, tc := range testCases {

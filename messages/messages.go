@@ -29,4 +29,7 @@ var (
 	Notice = func(message string) string {
 		return fmt.Sprintf("%s[Notice]%s %s%s", colours.Bold+colours.Magenta, colours.Reset, message, colours.Reset)
 	}
+	Ok = func(message string) string {
+		return fmt.Sprintf("%s[OK]%s %s%s", colours.Bold+colours.Green, colours.Reset, message, colours.Reset)
+	}
 )
